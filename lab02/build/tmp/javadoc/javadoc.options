@@ -1,0 +1,6 @@
+-classpath '/home/aidan/csci2020u/lab02/build/classes/java/main:/home/aidan/csci2020u/lab02/build/resources/main:/home/aidan/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-csv/1.6/22b3c2f901af973a8ec4f24e80c8c0c77a600b79/commons-csv-1.6.jar'
+-d '/home/aidan/csci2020u/lab02/build/docs/javadoc'
+-doctitle 'lab02 API'
+-quiet 
+-windowtitle 'lab02 API'
+'/home/aidan/csci2020u/lab02/src/main/java/lab02/SimpleTest.java'
