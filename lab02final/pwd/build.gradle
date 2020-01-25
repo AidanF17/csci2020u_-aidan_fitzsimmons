@@ -1,0 +1,12 @@
+apply plugin : 'java'
+apply plugin : 'application'
+
+repositories{
+	mavenCentral()
+}
+dependencies{
+	//implementation 'org.apache.commons:commons-vfs2-distribution:2.6.0'
+	compile group: 'org.apache.commons', name: 'commons-csv', version: '1.7'
+}
+
+mainClassName = "com.java.demo.csvdemo.CSVDemo"
