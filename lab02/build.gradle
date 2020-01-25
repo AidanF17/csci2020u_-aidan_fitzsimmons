@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 apply plugin : 'java'
 apply plugin : 'application'
 
@@ -10,3 +11,23 @@ dependencies{
 }
 
 mainClassName = "com.java.demo.csvdemo.CSVDemo"
+=======
+plugins {
+ id 'application'
+
+}
+
+apply plugin: 'java'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile 'org.apache.commons:commons-csv:1.6'
+}
+
+task application {
+	mainClassName = '/main/java/lab02/SimpleTest'
+}
+>>>>>>> 9ebef5848c1a0a635855ab19fa08560c57726493
